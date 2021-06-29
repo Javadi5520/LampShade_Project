@@ -1,0 +1,12 @@
+G:\Final\Code\LampShade\0_Framwork\bin\Debug\net5.0\0_Framwork.deps.json
+G:\Final\Code\LampShade\0_Framwork\bin\Debug\net5.0\0_Framwork.dll
+G:\Final\Code\LampShade\0_Framwork\bin\Debug\net5.0\ref\0_Framwork.dll
+G:\Final\Code\LampShade\0_Framwork\bin\Debug\net5.0\0_Framwork.pdb
+G:\Final\Code\LampShade\0_Framwork\obj\Debug\net5.0\0_Framwork.csproj.AssemblyReference.cache
+G:\Final\Code\LampShade\0_Framwork\obj\Debug\net5.0\0_Framwork.GeneratedMSBuildEditorConfig.editorconfig
+G:\Final\Code\LampShade\0_Framwork\obj\Debug\net5.0\0_Framwork.AssemblyInfoInputs.cache
+G:\Final\Code\LampShade\0_Framwork\obj\Debug\net5.0\0_Framwork.AssemblyInfo.cs
+G:\Final\Code\LampShade\0_Framwork\obj\Debug\net5.0\0_Framwork.csproj.CoreCompileInputs.cache
+G:\Final\Code\LampShade\0_Framwork\obj\Debug\net5.0\0_Framwork.dll
+G:\Final\Code\LampShade\0_Framwork\obj\Debug\net5.0\ref\0_Framwork.dll
+G:\Final\Code\LampShade\0_Framwork\obj\Debug\net5.0\0_Framwork.pdb
