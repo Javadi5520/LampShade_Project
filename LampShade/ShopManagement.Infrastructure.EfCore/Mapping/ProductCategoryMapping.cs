@@ -5,11 +5,10 @@ using ShopManagement.Domain.ProductCategoryAgg;
 namespace ShopManagement.Infrastructure.EfCore.Mapping
 {
     public class ProductCategoryMapping : IEntityTypeConfiguration<ProductCategory>
-
     {
         public void Configure(EntityTypeBuilder<ProductCategory> builder)
         {
-            builder.ToTable("ProductCaregories");
+            builder.ToTable("ProductCategories");
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Name).HasMaxLength(255).IsRequired();
@@ -20,6 +19,10 @@ namespace ShopManagement.Infrastructure.EfCore.Mapping
             builder.Property(x => x.Keywords).HasMaxLength(80).IsRequired();
             builder.Property(x => x.MetaDescription).HasMaxLength(150).IsRequired();
             builder.Property(x => x.Slug).HasMaxLength(300).IsRequired();
+
+            builder.HasMany(x => x.Products)
+                .WithOne(x => x.Category)
+                .HasForeignKey(x => x.CategoryId);
         }
     }
 }

@@ -5,6 +5,8 @@ using ShopManagement.Infrastructure.EfCore;
 using System;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application;
+using ShopManagement.Application.Contracts.Product;
+using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Infrastructure.EfCore.Repository;
 
 namespace ShopManagement.Configuration
@@ -15,6 +17,9 @@ namespace ShopManagement.Configuration
         {
             services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+
+            services.AddTransient<IProductApplication, ProductApplication>();
+            services.AddTransient<IProductRepository, ProductRepository>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }
