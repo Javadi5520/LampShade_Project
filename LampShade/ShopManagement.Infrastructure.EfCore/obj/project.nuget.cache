@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xvds2G8/Uet5N8K2pi41GYiQYTwRYr3Ec260ZoPj0EhGq+FKgu+P2vTCdHdtMBVKkVjjqVIiJSy8vKqL2dr1bw==",
+  "dgSpecHash": "MDvmizN/LOI86fwVXgPflH26rNhN4IRkfMylWBvWIuB7b1hGFFclE1/kBfB5htnQ51Khz2Z+SIXqsg2IgQmrzA==",
   "success": true,
-  "projectFilePath": "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+  "projectFilePath": "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aida\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1575,7 +1575,7 @@
           "bin/placeholder/ShopManagement.Domain.dll": {}
         }
       },
-      "ShopManagement.Infrastructure.EfCore/1.0.0": {
+      "ShopManagement.Infrastructure.EFCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -1584,10 +1584,10 @@
           "ShopManagement.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ShopManagement.Infrastructure.EfCore.dll": {}
+          "bin/placeholder/ShopManagement.Infrastructure.EFCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ShopManagement.Infrastructure.EfCore.dll": {}
+          "bin/placeholder/ShopManagement.Infrastructure.EFCore.dll": {}
         }
       }
     }
@@ -5878,10 +5878,10 @@
       "path": "../ShopManagement.Domain/ShopManagement.Domain.csproj",
       "msbuildProject": "../ShopManagement.Domain/ShopManagement.Domain.csproj"
     },
-    "ShopManagement.Infrastructure.EfCore/1.0.0": {
+    "ShopManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
-      "path": "../ShopManagement.Infrastructure.EfCore/ShopManagement.Infrastructure.EfCore.csproj",
-      "msbuildProject": "../ShopManagement.Infrastructure.EfCore/ShopManagement.Infrastructure.EfCore.csproj"
+      "path": "../ShopManagement.Infrastructure.EfCore/ShopManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../ShopManagement.Infrastructure.EfCore/ShopManagement.Infrastructure.EFCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5893,7 +5893,7 @@
       "ShopManagement.Application >= 1.0.0",
       "ShopManagement.Application.Contracts >= 1.0.0",
       "ShopManagement.Domain >= 1.0.0",
-      "ShopManagement.Infrastructure.EfCore >= 1.0.0"
+      "ShopManagement.Infrastructure.EFCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5929,8 +5929,8 @@
             "G:\\Final\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
               "projectPath": "G:\\Final\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
             },
-            "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
-              "projectPath": "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+            "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj"
             },
             "G:\\Final\\Code\\LampShade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
               "projectPath": "G:\\Final\\Code\\LampShade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj"

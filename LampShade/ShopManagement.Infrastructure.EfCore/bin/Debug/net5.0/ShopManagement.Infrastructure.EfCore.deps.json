@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "ShopManagement.Infrastructure.EfCore/1.0.0": {
+      "ShopManagement.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
@@ -14,7 +14,7 @@
           "ShopManagement.Domain": "1.0.0"
         },
         "runtime": {
-          "ShopManagement.Infrastructure.EfCore.dll": {}
+          "ShopManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1096,7 +1096,7 @@
     }
   },
   "libraries": {
-    "ShopManagement.Infrastructure.EfCore/1.0.0": {
+    "ShopManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

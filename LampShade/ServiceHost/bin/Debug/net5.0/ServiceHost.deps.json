@@ -1853,7 +1853,7 @@
           "ShopManagement.Application": "1.0.0",
           "ShopManagement.Application.Contracts": "1.0.0",
           "ShopManagement.Domain": "1.0.0",
-          "ShopManagement.Infrastructure.EfCore": "1.0.0"
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
           "ShopManagement.Configuration.dll": {}
@@ -1874,17 +1874,17 @@
           "ShopManagement.Domain.dll": {}
         }
       },
-      "ShopManagement.Infrastructure.EfCore/1.0.0": {
+      "ShopManagement.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
           "ShopManagement.Domain": "1.0.0"
         },
         "runtime": {
-          "ShopManagement.Infrastructure.EfCore.dll": {}
+          "ShopManagement.Infrastructure.EFCore.dll": {}
         },
         "compile": {
-          "ShopManagement.Infrastructure.EfCore.dll": {}
+          "ShopManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4467,7 +4467,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ShopManagement.Infrastructure.EfCore/1.0.0": {
+    "ShopManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

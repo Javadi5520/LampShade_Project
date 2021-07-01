@@ -60,7 +60,7 @@ namespace ShopManagement.Application
 
         public List<ProductViewModel> GetProducts()
         {
-            throw new System.NotImplementedException();
+            return _productRepository.GetProducts();
         }
 
         public OperationResult IsStock(long id)
