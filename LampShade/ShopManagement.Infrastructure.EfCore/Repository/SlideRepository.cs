@@ -21,10 +21,10 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         {
             return _context.Slides.Select(x => new EditSlide
             {
-                Picture = x.Picture,
                 Id = x.Id,
                 BtnText = x.BtnText,
                 Heading = x.Heading,
+                Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Text = x.Text,

@@ -17,10 +17,10 @@
     },
     "ServiceHost": {
       "commandName": "Project",
-      "dotnetRunMessages": "true",
+      "dotnetRunMessages": "false",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5000",
-      "launchUrl": "Administration/Shop/ProductCategories",
+      //"launchUrl": "Administration/Shop/ProductCategories",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
