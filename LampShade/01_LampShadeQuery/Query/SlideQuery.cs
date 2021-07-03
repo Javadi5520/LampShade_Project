@@ -1,9 +1,9 @@
-﻿using _01_LampshadeQuery.Contracts.Slide;
-using ShopManagement.Infrastructure.EFCore;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using _01_LampShadeQuery.Contracts.Slide;
+using ShopManagement.Infrastructure.EFCore;
 
-namespace _01_LampshadeQuery.Query
+namespace _01_LampShadeQuery.Query
 {
     public class SlideQuery : ISlideQuery
     {

@@ -1,19 +1,19 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using ShopManagement.Application.Contracts.ProductCategory;
-using ShopManagement.Domain.ProductCategoryAgg;
-using ShopManagement.Infrastructure.EFCore;
-using System;
+﻿using _01_LampShadeQuery.Contracts.ProductCategory;
+using _01_LampShadeQuery.Contracts.Slide;
+using _01_LampShadeQuery.Query;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
+using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.ProductAgg;
+using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.SlideAgg;
+using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
-using _01_LampshadeQuery.Contracts.Slide;
-using _01_LampshadeQuery.Query;
 
 namespace ShopManagement.Configuration
 {
@@ -34,6 +34,7 @@ namespace ShopManagement.Configuration
             services.AddTransient<ISlideRepository, SlideRepository>();
 
             services.AddTransient<ISlideQuery, SlideQuery>();
+            services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }

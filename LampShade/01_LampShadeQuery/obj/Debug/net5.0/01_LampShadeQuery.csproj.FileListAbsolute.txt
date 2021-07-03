@@ -1,3 +1,8 @@
+G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.AssemblyReference.cache
+G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.GeneratedMSBuildEditorConfig.editorconfig
+G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.AssemblyInfoInputs.cache
+G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.AssemblyInfo.cs
+G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.CoreCompileInputs.cache
 G:\Final\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\01_LampShadeQuery.deps.json
 G:\Final\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\01_LampShadeQuery.dll
 G:\Final\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ref\01_LampShadeQuery.dll
@@ -10,11 +15,6 @@ G:\Final\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ShopManagement.Infras
 G:\Final\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\0_Framework.pdb
 G:\Final\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\Final\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ShopManagement.Domain.pdb
-G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.AssemblyReference.cache
-G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.GeneratedMSBuildEditorConfig.editorconfig
-G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.AssemblyInfoInputs.cache
-G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.AssemblyInfo.cs
-G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.CoreCompileInputs.cache
 G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.CopyComplete
 G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.dll
 G:\Final\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\ref\01_LampShadeQuery.dll
