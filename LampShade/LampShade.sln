@@ -45,6 +45,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagement.Configur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagement.Infrastructure.EFCore", "DiscountManagement.Infrastructure.EFCore\DiscountManagement.Infrastructure.EFCore.csproj", "{C1A018AC-EB48-4286-8958-6EC4F635F7C0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryManagement", "InventoryManagement", "{D5689D7F-0A52-4E1B-BE57-859EDCDEF091}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Application", "IM.Application", "{405BF908-4A41-4DBB-8EE5-42EAF561CF62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Domain", "IM.Domain", "{AA2D1FD8-ADE5-4CEF-86DD-BCBF79064499}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Infrastructure", "IM.Infrastructure", "{0EA19B4A-C380-40A3-BEC6-76D1D1BF89BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Presentation", "IM.Presentation", "{BF76D449-B020-423A-B1F8-E55ECA81C9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Application", "InventoryManagement.Application\InventoryManagement.Application.csproj", "{D8426BA7-18A1-4DFA-B14C-5DA21B27486C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Application.Contract", "InventoryManagement.Application.Contract\InventoryManagement.Application.Contract.csproj", "{A31BF2D4-4701-497D-A6C5-B24D6162AD0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Domain", "InventoryManagement.Domain\InventoryManagement.Domain.csproj", "{3F41F018-BCA0-42DE-B7B6-975274522D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Infrastructure.Configuration", "InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj", "{E53EDCD6-A273-4BC2-96B7-B10EEDF72C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryMangement.Infrastructure.EFCore", "InventoryMangement.Infrastructure.EFCore\InventoryMangement.Infrastructure.EFCore.csproj", "{5978988C-3522-4E00-A819-133588F8E46F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Presentation.Api", "InventoryManagement.Presentation.Api\InventoryManagement.Presentation.Api.csproj", "{8BB2B6E0-994A-4381-AA52-A6638A0B5B3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +125,30 @@ Global
 		{C1A018AC-EB48-4286-8958-6EC4F635F7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1A018AC-EB48-4286-8958-6EC4F635F7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1A018AC-EB48-4286-8958-6EC4F635F7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8426BA7-18A1-4DFA-B14C-5DA21B27486C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8426BA7-18A1-4DFA-B14C-5DA21B27486C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8426BA7-18A1-4DFA-B14C-5DA21B27486C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8426BA7-18A1-4DFA-B14C-5DA21B27486C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31BF2D4-4701-497D-A6C5-B24D6162AD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31BF2D4-4701-497D-A6C5-B24D6162AD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31BF2D4-4701-497D-A6C5-B24D6162AD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31BF2D4-4701-497D-A6C5-B24D6162AD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F41F018-BCA0-42DE-B7B6-975274522D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F41F018-BCA0-42DE-B7B6-975274522D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F41F018-BCA0-42DE-B7B6-975274522D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F41F018-BCA0-42DE-B7B6-975274522D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53EDCD6-A273-4BC2-96B7-B10EEDF72C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53EDCD6-A273-4BC2-96B7-B10EEDF72C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53EDCD6-A273-4BC2-96B7-B10EEDF72C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53EDCD6-A273-4BC2-96B7-B10EEDF72C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5978988C-3522-4E00-A819-133588F8E46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5978988C-3522-4E00-A819-133588F8E46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5978988C-3522-4E00-A819-133588F8E46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5978988C-3522-4E00-A819-133588F8E46F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB2B6E0-994A-4381-AA52-A6638A0B5B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB2B6E0-994A-4381-AA52-A6638A0B5B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB2B6E0-994A-4381-AA52-A6638A0B5B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB2B6E0-994A-4381-AA52-A6638A0B5B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,6 +170,16 @@ Global
 		{20713E3F-B9B3-45CC-AAFB-5C213CAE0D78} = {09A59A97-3DB3-4349-BA2D-F03C6C0D3243}
 		{5F3743A1-3B48-4948-83AE-040F41CED408} = {34B5D2AB-0099-46B2-8758-B8F3EF6FB421}
 		{C1A018AC-EB48-4286-8958-6EC4F635F7C0} = {34B5D2AB-0099-46B2-8758-B8F3EF6FB421}
+		{405BF908-4A41-4DBB-8EE5-42EAF561CF62} = {D5689D7F-0A52-4E1B-BE57-859EDCDEF091}
+		{AA2D1FD8-ADE5-4CEF-86DD-BCBF79064499} = {D5689D7F-0A52-4E1B-BE57-859EDCDEF091}
+		{0EA19B4A-C380-40A3-BEC6-76D1D1BF89BD} = {D5689D7F-0A52-4E1B-BE57-859EDCDEF091}
+		{BF76D449-B020-423A-B1F8-E55ECA81C9CD} = {D5689D7F-0A52-4E1B-BE57-859EDCDEF091}
+		{D8426BA7-18A1-4DFA-B14C-5DA21B27486C} = {405BF908-4A41-4DBB-8EE5-42EAF561CF62}
+		{A31BF2D4-4701-497D-A6C5-B24D6162AD0D} = {405BF908-4A41-4DBB-8EE5-42EAF561CF62}
+		{3F41F018-BCA0-42DE-B7B6-975274522D31} = {AA2D1FD8-ADE5-4CEF-86DD-BCBF79064499}
+		{E53EDCD6-A273-4BC2-96B7-B10EEDF72C1B} = {0EA19B4A-C380-40A3-BEC6-76D1D1BF89BD}
+		{5978988C-3522-4E00-A819-133588F8E46F} = {0EA19B4A-C380-40A3-BEC6-76D1D1BF89BD}
+		{8BB2B6E0-994A-4381-AA52-A6638A0B5B3C} = {BF76D449-B020-423A-B1F8-E55ECA81C9CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83509530-A7E5-4BA6-B3C9-8CB5F893DE67}
