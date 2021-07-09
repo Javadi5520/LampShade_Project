@@ -1,7 +1,3 @@
-G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
-G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.AssemblyInfo.cs
-G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.deps.json
 G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.runtimeconfig.json
 G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.runtimeconfig.dev.json
@@ -15,6 +11,10 @@ G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\Sh
 G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\0_Framework.pdb
 G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.AssemblyInfo.cs
+G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csproj.CopyComplete
 G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
 G:\Final\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.EFCore.dll

@@ -1,7 +1,3 @@
-G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
-G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfoInputs.cache
-G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfo.cs
-G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CoreCompileInputs.cache
 G:\Final\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.deps.json
 G:\Final\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.runtimeconfig.json
 G:\Final\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.runtimeconfig.dev.json
@@ -21,6 +17,10 @@ G:\Final\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManage
 G:\Final\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\Final\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.pdb
 G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.AssemblyReference.cache
+G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfoInputs.cache
+G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfo.cs
+G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CoreCompileInputs.cache
 G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CopyComplete
 G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 G:\Final\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll

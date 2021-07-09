@@ -15,8 +15,8 @@ namespace InventoryMangement.Infrastructure.EFCore.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.0-preview.6.20312.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
+                .HasAnnotation("ProductVersion", "5.0.7")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("InventoryManagement.Domain.InventoryAgg.Inventory", b =>
@@ -59,8 +59,8 @@ namespace InventoryMangement.Infrastructure.EFCore.Migrations
                                 .HasColumnType("bigint");
 
                             b1.Property<string>("Description")
-                                .HasColumnType("nvarchar(1000)")
-                                .HasMaxLength(1000);
+                                .HasMaxLength(1000)
+                                .HasColumnType("nvarchar(1000)");
 
                             b1.Property<long>("InventoryId")
                                 .HasColumnType("bigint");
@@ -85,7 +85,11 @@ namespace InventoryMangement.Infrastructure.EFCore.Migrations
 
                             b1.WithOwner("Inventory")
                                 .HasForeignKey("InventoryId");
+
+                            b1.Navigation("Inventory");
                         });
+
+                    b.Navigation("Operations");
                 });
 #pragma warning restore 612, 618
         }

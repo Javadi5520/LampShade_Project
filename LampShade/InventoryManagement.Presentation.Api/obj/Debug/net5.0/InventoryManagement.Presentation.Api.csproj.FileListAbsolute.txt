@@ -1,0 +1,5 @@
+G:\Final\Code\LampShade\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.AssemblyReference.cache
+G:\Final\Code\LampShade\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+G:\Final\Code\LampShade\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfoInputs.cache
+G:\Final\Code\LampShade\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.AssemblyInfo.cs
+G:\Final\Code\LampShade\InventoryManagement.Presentation.Api\obj\Debug\net5.0\InventoryManagement.Presentation.Api.csproj.CoreCompileInputs.cache

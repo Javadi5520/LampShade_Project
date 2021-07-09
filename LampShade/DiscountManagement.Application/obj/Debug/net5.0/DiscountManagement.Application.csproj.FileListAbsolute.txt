@@ -1,8 +1,3 @@
-G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.AssemblyReference.cache
-G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfoInputs.cache
-G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfo.cs
-G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CoreCompileInputs.cache
 G:\Final\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Application.deps.json
 G:\Final\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Application.dll
 G:\Final\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\ref\DiscountManagement.Application.dll
@@ -15,6 +10,11 @@ G:\Final\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\Discount
 G:\Final\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 G:\Final\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\0_Framework.pdb
 G:\Final\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.AssemblyReference.cache
+G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfoInputs.cache
+G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfo.cs
+G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CoreCompileInputs.cache
 G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CopyComplete
 G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.dll
 G:\Final\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\ref\DiscountManagement.Application.dll
