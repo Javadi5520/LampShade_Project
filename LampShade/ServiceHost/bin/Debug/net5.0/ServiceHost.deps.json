@@ -34,6 +34,7 @@
       "ServiceHost/1.0.0": {
         "dependencies": {
           "DiscountManagement.Configuration": "1.0.0",
+          "Google.Apis.Admin.Directory.directory_v1": "1.52.0.2378",
           "InventoryManagement.Infrastructure.Configuration": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.Design": "5.0.7",
@@ -328,6 +329,69 @@
         },
         "compile": {
           "ServiceHost.dll": {}
+        }
+      },
+      "Google.Apis/1.52.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.52.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.52.0.0",
+            "fileVersion": "1.52.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {}
+        }
+      },
+      "Google.Apis.Admin.Directory.directory_v1/1.52.0.2378": {
+        "dependencies": {
+          "Google.Apis": "1.52.0",
+          "Google.Apis.Auth": "1.52.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Admin.Directory.directory_v1.dll": {
+            "assemblyVersion": "1.52.0.2378",
+            "fileVersion": "1.52.0.2378"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Admin.Directory.directory_v1.dll": {}
+        }
+      },
+      "Google.Apis.Auth/1.52.0": {
+        "dependencies": {
+          "Google.Apis": "1.52.0",
+          "Google.Apis.Core": "1.52.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.52.0.0",
+            "fileVersion": "1.52.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.52.0.0",
+            "fileVersion": "1.52.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {}
+        }
+      },
+      "Google.Apis.Core/1.52.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.52.0.0",
+            "fileVersion": "1.52.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -854,7 +918,7 @@
       "Microsoft.IdentityModel.JsonWebTokens/5.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "5.6.0",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
@@ -895,7 +959,7 @@
       "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols": "5.6.0",
-          "Newtonsoft.Json": "11.0.2",
+          "Newtonsoft.Json": "12.0.3",
           "System.IdentityModel.Tokens.Jwt": "5.6.0"
         },
         "runtime": {
@@ -911,7 +975,7 @@
       "Microsoft.IdentityModel.Tokens/5.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Logging": "5.6.0",
-          "Newtonsoft.Json": "11.0.2",
+          "Newtonsoft.Json": "12.0.3",
           "System.Security.Cryptography.Cng": "4.5.0"
         },
         "runtime": {
@@ -943,7 +1007,7 @@
       },
       "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/5.0.2": {
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2",
+          "Newtonsoft.Json": "12.0.3",
           "System.Collections.Immutable": "5.0.0"
         },
         "runtime": {
@@ -960,7 +1024,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "5.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "5.0.2",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {
@@ -1034,7 +1098,7 @@
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "3.8.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "5.0.2",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll": {
@@ -1071,11 +1135,11 @@
           "Microsoft.NETCore.Platforms": "3.1.0"
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.3": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.21924"
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
           }
         },
         "compile": {
@@ -1365,7 +1429,7 @@
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "5.6.0",
           "Microsoft.IdentityModel.Tokens": "5.6.0",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
@@ -3730,6 +3794,34 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Google.Apis/1.52.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5YWTBzHuNUiYIUoIBkCGYMokyYuaOuAn+w96lIJ2WNqeiAurKq3ZLqZ86fYae32PDWHZa+itFYc9O1iVfYi5dQ==",
+      "path": "google.apis/1.52.0",
+      "hashPath": "google.apis.1.52.0.nupkg.sha512"
+    },
+    "Google.Apis.Admin.Directory.directory_v1/1.52.0.2378": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FQ6mxGtYd76EDyMF81aPMdpJYqhQWO2fRPB2MJMwoaNGoUQqzYDNNrBI9k/7XB1BgYgjIt9aWTVTn3c8zKEt1g==",
+      "path": "google.apis.admin.directory.directory_v1/1.52.0.2378",
+      "hashPath": "google.apis.admin.directory.directory_v1.1.52.0.2378.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.52.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T7JKjq4zmk8b4lrOn+kyatgDQdLytoV+i6Fw4agyWlm4Q+bbZbu3DcCz+UuliEtXHbShgHD1PWfiMJoQGuPEog==",
+      "path": "google.apis.auth/1.52.0",
+      "hashPath": "google.apis.auth.1.52.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.52.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cgQpnZ9IC5SBNsAFTXHKUMB8bOkBWPLtXcLgwSYkV8oL0FfUdHwrDzH5qrf/mFB9fQIPgJyV6tdUwf2hu1UJ+A==",
+      "path": "google.apis.core/1.52.0",
+      "hashPath": "google.apis.core.1.52.0.nupkg.sha512"
+    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
@@ -4066,12 +4158,12 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/11.0.2": {
+    "Newtonsoft.Json/12.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
-      "path": "newtonsoft.json/11.0.2",
-      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

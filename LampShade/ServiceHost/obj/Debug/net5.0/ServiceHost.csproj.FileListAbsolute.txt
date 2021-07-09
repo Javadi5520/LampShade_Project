@@ -204,3 +204,14 @@ G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.dll
 G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
+G:\Final\Code\LampShade\ServiceHost\bin\Debug\net5.0\Google.Apis.dll
+G:\Final\Code\LampShade\ServiceHost\bin\Debug\net5.0\Google.Apis.Admin.Directory.directory_v1.dll
+G:\Final\Code\LampShade\ServiceHost\bin\Debug\net5.0\Google.Apis.Auth.PlatformServices.dll
+G:\Final\Code\LampShade\ServiceHost\bin\Debug\net5.0\Google.Apis.Auth.dll
+G:\Final\Code\LampShade\ServiceHost\bin\Debug\net5.0\Google.Apis.Core.dll
+G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Create.cshtml.g.cs
+G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Edit.cshtml.g.cs
+G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Increase.cshtml.g.cs
+G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Index.cshtml.g.cs
+G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\OperationLog.cshtml.g.cs
+G:\Final\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Reduce.cshtml.g.cs

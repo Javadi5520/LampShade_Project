@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IW61jXSSSHOm1Xo0AuQ5uHldqrI6slfAZgCybHgUy3HzNFu6+cIKMcG2w2W67LATcXrHVbLpwuEBozldRlWLyA==",
+  "dgSpecHash": "wNdHZV9CcZs2ykc/NRVqLSTllbuvUKVL1Dm2GyJyobv9iTbl4S1WZlq31ABYKGY4Uf/zEXHEVo0ynzBsKnyYJw==",
   "success": true,
   "projectFilePath": "G:\\Final\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Aida\\.nuget\\packages\\google.apis\\1.52.0\\google.apis.1.52.0.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\google.apis.admin.directory.directory_v1\\1.52.0.2378\\google.apis.admin.directory.directory_v1.1.52.0.2378.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\google.apis.auth\\1.52.0\\google.apis.auth.1.52.0.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\google.apis.core\\1.52.0\\google.apis.core.1.52.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -52,7 +56,7 @@
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\Aida\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
