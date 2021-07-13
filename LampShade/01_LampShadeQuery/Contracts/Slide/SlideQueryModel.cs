@@ -1,4 +1,4 @@
-﻿namespace _01_LampShadeQuery.Contracts.Slide
+﻿namespace _01_LampshadeQuery.Contracts.Slide
 {
     public class SlideQueryModel
     {

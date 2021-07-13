@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D8pXMSo/xNw+hEDA5ynIrCudF7eSJZHNK76mpQwpyvYqbl1f4mHkcDLpEUDmbS75BYFhhDBmEw+DM9WwmJP63g==",
+  "dgSpecHash": "Ax/FTbxerzjOoUTFfPQBqfOroQNv+gEezcMPrFpW8jwmzQXiUNTVVOa2lGsix39YQfrDuKrs1CWiG0ZCcPeRrA==",
   "success": true,
-  "projectFilePath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+  "projectFilePath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",

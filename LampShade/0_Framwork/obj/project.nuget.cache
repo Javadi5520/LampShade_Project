@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ql8r1FpqyBVga6unnD5YDwa3pMgO8JIjErdnm7XR/d5+zHqbgq9uhl34U+ifYAzzcXmWNKzU4cVJYbJjEI8ThA==",
+  "dgSpecHash": "YBZ/cFECI77U9Jd4r2v0PvoCoL8zRrRer7MSJ54mNwgWo66cHWxCSJPMOxfzv3JcVa54WSQUqrS0PnWfxCC/1Q==",
   "success": true,
-  "projectFilePath": "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj",
+  "projectFilePath": "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",

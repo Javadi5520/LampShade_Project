@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VJBZPuur0tjcuRWIUzk1sdV5wJkuEQR5Yr7sMnKQWK9okoiRkdPtQk5+422VcKv3i34kvHU3m3IAu/kJMe8Xyw==",
+  "dgSpecHash": "jO6KE6qOVykKgjFCDJMKvDmJ5PkV6aKBGrGvCg4l3VEqDN8MhJsBaOuXL+Cf+8GCwJZ3ls7Ulzpd/Ii0BndkBA==",
   "success": true,
-  "projectFilePath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+  "projectFilePath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aida\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

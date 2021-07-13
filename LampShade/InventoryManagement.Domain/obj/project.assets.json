@@ -588,11 +588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Final\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+      "projectUniqueName": "G:\\Final\\Code\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
       "projectName": "InventoryManagement.Domain",
-      "projectPath": "G:\\Final\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+      "projectPath": "G:\\Final\\Code\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
       "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
-      "outputPath": "G:\\Final\\Code\\LampShade\\InventoryManagement.Domain\\obj\\",
+      "outputPath": "G:\\Final\\Code\\Lampshade\\InventoryManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -609,11 +609,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj": {
-              "projectPath": "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj"
+            "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {
+              "projectPath": "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj"
             },
-            "G:\\Final\\Code\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
-              "projectPath": "G:\\Final\\Code\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+            "G:\\Final\\Code\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+              "projectPath": "G:\\Final\\Code\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
             }
           }
         }

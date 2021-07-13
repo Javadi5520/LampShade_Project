@@ -607,11 +607,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Final\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+      "projectUniqueName": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
       "projectName": "DiscountManagement.Application",
-      "projectPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+      "projectPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
       "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
-      "outputPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Application\\obj\\",
+      "outputPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -628,11 +628,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Final\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
-              "projectPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
+            "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+              "projectPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
             },
-            "G:\\Final\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-              "projectPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+            "G:\\Final\\Code\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+              "projectPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
             }
           }
         }

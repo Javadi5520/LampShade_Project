@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Configuratio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{15751CF6-F8C7-47B4-BEBC-EA6BA9EE4043}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_LampShadeQuery", "01_LampShadeQuery\01_LampShadeQuery.csproj", "{C2A9CC3A-76A6-4F22-8C5C-23D1438B7E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_LampshadeQuery", "01_LampShadeQuery\01_LampshadeQuery.csproj", "{C2A9CC3A-76A6-4F22-8C5C-23D1438B7E88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiscountManagement", "DiscountManagement", "{54EB9D6E-0E5F-4542-AD61-3B876A08A64B}"
 EndProject

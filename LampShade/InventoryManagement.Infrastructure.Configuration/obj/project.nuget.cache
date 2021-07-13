@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tg1DZf4WgxkQHxR4+OcnGQNUoUpHMVixjDyXZfjsDZeGSbcrz+RiipzylH/7dia02MiiLiFYFEiNEqZQwZxJyg==",
+  "dgSpecHash": "ZxfKkbEpWZZlG3wW8TQCHDC8JlthBgWN5n4PeXvK3RkV+RBgbLOKZdjdzTKOI2itYVzyIdmDMSMyCy/zjtHIhw==",
   "success": true,
-  "projectFilePath": "G:\\Final\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+  "projectFilePath": "G:\\Final\\Code\\Lampshade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aida\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

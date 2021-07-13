@@ -5962,11 +5962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Final\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
+      "projectUniqueName": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
       "projectName": "DiscountManagement.Configuration",
-      "projectPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
+      "projectPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
       "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
-      "outputPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Configuration\\obj\\",
+      "outputPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Configuration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5983,17 +5983,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Final\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
-              "projectPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
+            "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+              "projectPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
             },
-            "G:\\Final\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
-              "projectPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
+            "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+              "projectPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
             },
-            "G:\\Final\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-              "projectPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+            "G:\\Final\\Code\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+              "projectPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
             },
-            "G:\\Final\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "G:\\Final\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+            "G:\\Final\\Code\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "G:\\Final\\Code\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
             }
           }
         }

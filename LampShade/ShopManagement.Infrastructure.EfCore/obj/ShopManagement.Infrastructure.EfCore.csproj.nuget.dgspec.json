@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj": {}
+    "G:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj": {}
   },
   "projects": {
-    "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj": {
+    "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj",
+        "projectUniqueName": "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj",
+        "projectPath": "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
-        "outputPath": "G:\\Final\\Code\\LampShade\\0_Framwork\\obj\\",
+        "outputPath": "G:\\Final\\Code\\Lampshade\\0_Framwork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "G:\\Final\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "G:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Final\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "G:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "G:\\Final\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "G:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
-        "outputPath": "G:\\Final\\Code\\LampShade\\ShopManagement.Domain\\obj\\",
+        "outputPath": "G:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,11 +88,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj": {
-                "projectPath": "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj"
+              "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {
+                "projectPath": "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj"
               },
-              "G:\\Final\\Code\\LampShade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "G:\\Final\\Code\\LampShade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj"
+              "G:\\Final\\Code\\Lampshade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "G:\\Final\\Code\\Lampshade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -125,14 +125,14 @@
         }
       }
     },
-    "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+    "G:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "G:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "projectName": "ShopManagement.Infrastructure.EFCore",
-        "projectPath": "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "G:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
-        "outputPath": "G:\\Final\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\obj\\",
+        "outputPath": "G:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.EfCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,8 +149,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\Final\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "G:\\Final\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "G:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "G:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -199,14 +199,14 @@
         }
       }
     },
-    "G:\\Final\\Code\\LampShade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
+    "G:\\Final\\Code\\Lampshade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Final\\Code\\LampShade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "G:\\Final\\Code\\Lampshade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "G:\\Final\\Code\\LampShade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj",
+        "projectPath": "G:\\Final\\Code\\Lampshade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
-        "outputPath": "G:\\Final\\Code\\LampShade\\ShopManagment.Application.Contract\\obj\\",
+        "outputPath": "G:\\Final\\Code\\Lampshade\\ShopManagment.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -223,8 +223,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj": {
-                "projectPath": "G:\\Final\\Code\\LampShade\\0_Framwork\\0_Framework.csproj"
+              "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {
+                "projectPath": "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj"
               }
             }
           }
