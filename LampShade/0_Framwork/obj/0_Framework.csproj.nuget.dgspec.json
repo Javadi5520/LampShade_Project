@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {}
+    "C:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {}
   },
   "projects": {
-    "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {
+    "C:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "G:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj",
+        "projectPath": "C:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
-        "outputPath": "G:\\Final\\Code\\Lampshade\\0_Framwork\\obj\\",
+        "outputPath": "C:\\Final\\Code\\Lampshade\\0_Framwork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.7, )"

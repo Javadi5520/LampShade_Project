@@ -41,7 +41,7 @@
                             <option value="0">گروه محصولی</option>
                         </select>
                     </div>
-  
+
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
                     <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
                 </form>
@@ -74,23 +74,22 @@
                             <tbody>
                                 @foreach (var item in Model.Products)
                                 {
-                                <tr>
-                                    <td>@item.Id</td>
-                                    <td>
-                                        <img src="@item.Picture" style="width: 70px; height: 70px" />
-                                        @*                                        <img src="~/ProductPictures/@item.Picture" style="width: 70px; height: 70px" />*@
-                                    </td>
-                                    <td>@item.Name</td>
-                                    <td>@item.Code</td>
-                                    <td>@item.Category</td>
-                                    <td>@item.CreationDate</td>
-                                    <td>
-                                        <a class="btn btn-warning btn-custom waves-effect waves-light m-b-5"
-                                           href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
-                                            <i class="fa fa-edit"></i> ویرایش
-                                        </a>
-                                    </td>
-                                </tr>
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>
+                                            <img src="~/ProductPictures/@item.Picture" style="width: 70px; height: 70px" />
+                                        </td>
+                                        <td>@item.Name</td>
+                                        <td>@item.Code</td>
+                                        <td>@item.Category</td>
+                                        <td>@item.CreationDate</td>
+                                        <td>
+                                            <a class="btn btn-warning btn-custom waves-effect waves-light m-b-5"
+                                               href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
+                                                <i class="fa fa-edit"></i> ویرایش
+                                            </a>
+                                        </td>
+                                    </tr>
                                 }
                             </tbody>
                         </table>
