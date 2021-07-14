@@ -2,7 +2,7 @@
 using ShopManagement.Domain.ProductCategoryAgg;
 using System.Collections.Generic;
 using _0_Framework.Application;
-
+using ShopManagement.Infrastructure.EFCore.Repository;
 
 namespace ShopManagement.Application
 {
@@ -19,17 +19,22 @@ namespace ShopManagement.Application
         
         public OperationResult Create(CreateProductCategory command)
         {
-            var opration = new OperationResult();
+            var operation = new OperationResult();
             if (_productCategoryRepository.Exists(x => x.Name == command.Name))
-                return opration.Failed(ApplicationMessages.DuplicatedRecord);
-            
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
+
             var slug = command.Slug.Slugify();
-            var productCategory = new ProductCategory(command.Name, command.Description,"",
-                command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
-            
+
+            var picturePath = $"{command.Slug}";
+            var pictureName = _fileUploader.Upload(command.Picture, picturePath);
+
+            var productCategory = new ProductCategory(command.Name, command.Description,
+                pictureName, command.PictureAlt, command.PictureTitle, command.Keywords,
+                command.MetaDescription, slug);
+
             _productCategoryRepository.Create(productCategory);
             _productCategoryRepository.SaveChanges();
-            return opration.Succedded();
+            return operation.Succedded();
         }
 
         public OperationResult Edit(EditProductCategory command)
