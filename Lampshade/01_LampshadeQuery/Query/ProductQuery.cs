@@ -1,5 +1,6 @@
 ﻿using _0_Framework.Application;
 using _01_LampshadeQuery.Contracts.Product;
+using CommnetManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using _01_LampshadeQuery.Contracts.Comment;
 
 namespace _01_LampshadeQuery.Query
 {
@@ -16,23 +18,17 @@ namespace _01_LampshadeQuery.Query
         private readonly ShopContext _context;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
-//        private readonly CommentContext _commentContext;
+        private readonly CommentContext _commentContext;
+
 
         public ProductQuery(ShopContext context, InventoryContext inventoryContext,
-            DiscountContext discountContext)
+              DiscountContext discountContext, CommentContext commentContext)
         {
             _context = context;
             _discountContext = discountContext;
             _inventoryContext = inventoryContext;
+            _commentContext = commentContext;
         }
-      //public ProductQuery(ShopContext context, InventoryContext inventoryContext,
-      //      DiscountContext discountContext, CommentContext commentContext)
-      //  {
-      //      _context = context;
-      //      _discountContext = discountContext;
-      //      _inventoryContext = inventoryContext;
-      //      _commentContext = commentContext;
-      //  }
 
         public ProductQueryModel GetProductDetails(string slug)
         {
@@ -85,18 +81,18 @@ namespace _01_LampshadeQuery.Query
                 }
             }
 
-            //product.Comments = _commentContext.Comments
-            //    .Where(x => !x.IsCanceled)
-            //    .Where(x => x.IsConfirmed)
-            //    .Where(x => x.Type == CommentType.Product)
-            //    .Where(x => x.OwnerRecordId == product.Id)
-            //    .Select(x => new CommentQueryModel
-            //    {
-            //        Id = x.Id,
-            //        Message = x.Message,
-            //        Name = x.Name,
-            //        CreationDate = x.CreationDate.ToFarsi()
-            //    }).OrderByDescending(x => x.Id).ToList();
+            product.Comments = _commentContext.Comments
+                .Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Where(x => x.Type == CommentType.Product)
+                .Where(x => x.OwnerRecordId == product.Id)
+                .Select(x => new CommentQueryModel
+                {
+                    Id = x.Id,
+                    Message = x.Message,
+                    Name = x.Name,
+                    CreationDate = x.CreationDate.ToFarsi()
+                }).OrderByDescending(x => x.Id).ToList();
 
             return product;
         }

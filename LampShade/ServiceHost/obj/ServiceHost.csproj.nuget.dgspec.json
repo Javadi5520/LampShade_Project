@@ -28,6 +28,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj"
+              },
               "C:\\Final\\Code\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "C:\\Final\\Code\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
@@ -121,6 +124,356 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
+        "projectName": "CommentManagement.Application.Contracts",
+        "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
+        "outputPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Final\\Code\\Lampshade\\CommentManagement.Application\\CommentManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application\\CommentManagement.Application.csproj",
+        "projectName": "CommentManagement.Application",
+        "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application\\CommentManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
+        "outputPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
+              },
+              "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "projectName": "CommentManagement.Domain",
+        "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
+        "outputPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\0_Framwork\\0_Framework.csproj"
+              },
+              "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Final\\Code\\Lampshade\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Final\\Code\\Lampshade\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj",
+        "projectName": "CommentManagement.Infrastructure.Configuration",
+        "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
+        "outputPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Infrastructure.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\CommentManagement.Application\\CommentManagement.Application.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application\\CommentManagement.Application.csproj"
+              },
+              "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              },
+              "C:\\Final\\Code\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Final\\Code\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Final\\Code\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj",
+        "projectName": "CommnetManagement.Infrastructure.EFCore",
+        "projectPath": "C:\\Final\\Code\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
+        "outputPath": "C:\\Final\\Code\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
             }
           },
           "imports": [
@@ -315,23 +668,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -466,23 +819,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             }
           },
           "imports": [
@@ -738,23 +1091,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -828,7 +1181,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             }
           },
           "imports": [
@@ -874,6 +1227,12 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
+              },
+              "C:\\Final\\Code\\Lampshade\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj"
+              },
               "C:\\Final\\Code\\Lampshade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
                 "projectPath": "C:\\Final\\Code\\Lampshade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
               },
@@ -898,17 +1257,17 @@
           "dependencies": {
             "Google.Apis.Admin.Directory.directory_v1": {
               "target": "Package",
-              "version": "[1.52.0.2378, )"
+              "version": "[1.52.0.2385, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -1002,17 +1361,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             }
           },
           "imports": [
@@ -1137,17 +1496,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             }
           },
           "imports": [

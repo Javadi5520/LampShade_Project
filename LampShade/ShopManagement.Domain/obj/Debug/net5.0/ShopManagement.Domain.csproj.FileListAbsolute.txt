@@ -15,11 +15,6 @@ G:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Do
 G:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
 G:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
 G:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
-C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.AssemblyReference.cache
-C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
-C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
-C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.deps.json
 C:\Final\Code\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.dll
 C:\Final\Code\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ref\ShopManagement.Domain.dll
@@ -28,6 +23,11 @@ C:\Final\Code\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.dll
 C:\Final\Code\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 C:\Final\Code\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 C:\Final\Code\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.AssemblyReference.cache
+C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
+C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
 C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
 C:\Final\Code\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
