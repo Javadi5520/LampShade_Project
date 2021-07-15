@@ -6,6 +6,7 @@ C:\Final\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\0_Framework.dl
 C:\Final\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
 C:\Final\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 C:\Final\Code\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.AssemblyReference.cache
 C:\Final\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Final\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfoInputs.cache
 C:\Final\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfo.cs
@@ -14,4 +15,3 @@ C:\Final\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagem
 C:\Final\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.dll
 C:\Final\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\ref\CommentManagement.Domain.dll
 C:\Final\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.pdb
-C:\Final\Code\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.AssemblyReference.cache
