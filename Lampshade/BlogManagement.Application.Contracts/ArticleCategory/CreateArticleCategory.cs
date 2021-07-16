@@ -8,7 +8,7 @@ namespace BlogManagement.Application.Contracts.ArticleCategory
     {
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Name { get; set; }
-        
+
         public IFormFile Picture { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
@@ -19,10 +19,10 @@ namespace BlogManagement.Application.Contracts.ArticleCategory
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Description { get; set; }
-        
+
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public int ShowOrder { get; set; }
-        
+
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Slug { get; set; }
 

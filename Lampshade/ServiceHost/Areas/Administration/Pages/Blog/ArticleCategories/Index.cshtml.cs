@@ -36,7 +36,7 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.ArticleCategories
         public IActionResult OnGetEdit(long id)
         {
             var productCategory = _articleCategoryApplication.GetDetails(id);
-            return Partial("Edit", productCategory);
+            return Partial("./Edit", productCategory);
         }
 
         public JsonResult OnPostEdit(EditArticleCategory command)

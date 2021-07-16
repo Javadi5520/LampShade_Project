@@ -1,4 +1,5 @@
 ﻿using _01_LampshadeQuery.Contracts.Comment;
+using BlogManagement.Application.Contracts.Article;
 using System.Collections.Generic;
 
 namespace _01_LampshadeQuery.Contracts.Article
