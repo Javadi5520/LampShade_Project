@@ -4,9 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lampshapde Store</title>
+    @if (ViewData["Title"] != null)
+    {
+        <title>@ViewData["Title"] - فروشگاه جوادی</title>
+    }
+    else
+    {
+        <title>فروشگاه جوادی</title>
 
-    <!-- Vendor CSS -->
+    }
+    <meta name="keywords" content="@ViewData["keywords"]" />
+    <meta name="description" content="@ViewData["metaDescription"]" />
+
+          <!-- Vendor CSS -->
     <link href="~/Theme/assets/css/vendors.css" rel="stylesheet">
     <!-- Main CSS -->
     <link href="~/Theme/assets/css/style.css" rel="stylesheet">
@@ -30,7 +40,7 @@
 
         <div class="search-form">
             <form method="get" asp-page="/Search">
-                <input type="search" name="value" id="value"  placeholder="هر چه می خواهید در فروشگاه جستجو کنید ...">
+                <input type="search" name="value" id="value" placeholder="هر چه می خواهید در فروشگاه جستجو کنید ...">
                 <button type="submit">
                     <i class="ion-android-search"></i>
                 </button>
