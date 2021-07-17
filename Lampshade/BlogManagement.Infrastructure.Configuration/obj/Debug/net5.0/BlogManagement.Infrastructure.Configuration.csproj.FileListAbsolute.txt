@@ -1,8 +1,3 @@
-C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
-C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
-C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
-C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.AssemblyInfo.cs
-C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.Configuration.deps.json
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.Configuration.dll
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\ref\BlogManagement.Infrastructure.Configuration.dll
@@ -43,6 +38,11 @@ C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\ne
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.AssemblyInfo.cs
+C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.csproj.CopyComplete
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.dll
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\BlogManagement.Infrastructure.Configuration.dll

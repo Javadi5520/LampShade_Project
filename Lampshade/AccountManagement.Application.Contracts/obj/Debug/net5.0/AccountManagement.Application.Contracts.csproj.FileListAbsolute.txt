@@ -1,0 +1,15 @@
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\bin\Debug\net5.0\AccountManagement.Application.Contracts.deps.json
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\bin\Debug\net5.0\ref\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.csproj.AssemblyReference.cache
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.AssemblyInfo.cs
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.csproj.CopyComplete
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\obj\Debug\net5.0\ref\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.pdb

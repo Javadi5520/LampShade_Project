@@ -79,6 +79,24 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Antiforgery.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
+          "Microsoft.AspNetCore.DataProtection": "2.2.0",
+          "Microsoft.AspNetCore.Http": "2.2.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0",
+          "Microsoft.Extensions.WebEncoders": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -91,6 +109,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Cookies/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.Core/2.2.0": {
@@ -3225,6 +3255,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Google.Apis.Admin.Directory.directory_v1": "1.52.0.2385",
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.8",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.7"
@@ -3234,6 +3266,78 @@
         },
         "runtime": {
           "bin/placeholder/0_Framework.dll": {}
+        }
+      },
+      "AccountManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AccountManagement.Application.Contracts": "1.0.0",
+          "AccountManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Application.dll": {}
+        }
+      },
+      "AccountManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Application.Contracts.dll": {}
+        }
+      },
+      "AccountManagement.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "AccountManagement.Application": "1.0.0",
+          "AccountManagement.Domain": "1.0.0",
+          "AccountMangement.Infrastructure.EFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Configuration.dll": {}
+        }
+      },
+      "AccountManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "AccountManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Domain.dll": {}
+        }
+      },
+      "AccountMangement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AccountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
+        },
+        "compile": {
+          "bin/placeholder/AccountMangement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountMangement.Infrastructure.EFCore.dll": {}
         }
       },
       "BlogManagement.Application/1.0.0": {
@@ -3750,6 +3854,19 @@
         "microsoft.aspnetcore.antiforgery.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.Authentication/2.2.0": {
+      "sha512": "b0R9X7L6zMqNsssKDvhYHuNi5x0s4DyHTeXybIAyGaitKiW1Q5aAGKdV2codHPiePv9yHfC9hAMyScXQ/xXhPw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.xml",
+        "microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "sha512": "VloMLDJMf3n/9ic5lCBOa42IBYJgyB1JhzLsL68Zqg+2bEPWfGBj/xCJy/LrKTArN0coOcZp3wyVTZlx0y9pHQ==",
       "type": "package",
@@ -3761,6 +3878,19 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.xml",
         "microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Cookies/2.2.0": {
+      "sha512": "Iar9VFlBHkZGdSG9ZUTmn6Q8Qg+6CtW5G/TyJI2F8B432TOH+nZlkU7O0W0byow6xsxqOYeTviSHz4cCJ3amfQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.cookies/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.xml",
+        "microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.cookies.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Core/2.2.0": {
@@ -10438,6 +10568,31 @@
       "path": "../0_Framwork/0_Framework.csproj",
       "msbuildProject": "../0_Framwork/0_Framework.csproj"
     },
+    "AccountManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Application/AccountManagement.Application.csproj",
+      "msbuildProject": "../AccountManagement.Application/AccountManagement.Application.csproj"
+    },
+    "AccountManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Application.Contracts/AccountManagement.Application.Contracts.csproj",
+      "msbuildProject": "../AccountManagement.Application.Contracts/AccountManagement.Application.Contracts.csproj"
+    },
+    "AccountManagement.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Configuration/AccountManagement.Configuration.csproj",
+      "msbuildProject": "../AccountManagement.Configuration/AccountManagement.Configuration.csproj"
+    },
+    "AccountManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Domain/AccountManagement.Domain.csproj",
+      "msbuildProject": "../AccountManagement.Domain/AccountManagement.Domain.csproj"
+    },
+    "AccountMangement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../AccountMangement.Infrastructure.EFCore/AccountMangement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../AccountMangement.Infrastructure.EFCore/AccountMangement.Infrastructure.EFCore.csproj"
+    },
     "BlogManagement.Application/1.0.0": {
       "type": "project",
       "path": "../BlogManagement.Application/BlogManagement.Application.csproj",
@@ -10566,6 +10721,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AccountManagement.Configuration >= 1.0.0",
       "BlogManagement.Infrastructure.Configuration >= 1.0.0",
       "CommentManagement.Application.Contracts >= 1.0.0",
       "CommentManagement.Infrastructure.Configuration >= 1.0.0",
@@ -10607,6 +10763,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Final\\Code\\Lampshade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
+              "projectPath": "C:\\Final\\Code\\Lampshade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj"
+            },
             "C:\\Final\\Code\\Lampshade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
               "projectPath": "C:\\Final\\Code\\Lampshade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
             },
