@@ -11,20 +11,17 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
     {
         [TempData]
         public string Message { get; set; }
-        
         public ProductPictureSearchModel SearchModel;
         public List<ProductPictureViewModel> ProductPictures;
         public SelectList Products;
 
         private readonly IProductApplication _productApplication;
         private readonly IProductPictureApplication _productPictureApplication;
-
-        public IndexModel(IProductApplication productApplication, IProductPictureApplication productPictureApplication)
+        public IndexModel(IProductApplication ProductApplication, IProductPictureApplication productPictureApplication)
         {
-            _productApplication = productApplication;
+            _productApplication = ProductApplication;
             _productPictureApplication = productPictureApplication;
         }
-
 
         public void OnGet(ProductPictureSearchModel searchModel)
         {
@@ -38,7 +35,6 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
             {
                 Products = _productApplication.GetProducts()
             };
-
             return Partial("./Create", command);
         }
 
