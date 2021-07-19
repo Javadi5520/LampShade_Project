@@ -90,3 +90,7 @@ C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManage
 C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
+C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb

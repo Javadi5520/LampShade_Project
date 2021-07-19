@@ -48,3 +48,7 @@ C:\Final\Code\Lampshade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.
 C:\Final\Code\Lampshade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.dll
 C:\Final\Code\Lampshade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryMangement.Infrastructure.EFCore.dll
 C:\Final\Code\Lampshade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
+C:\Final\Code\Lampshade\InventoryMangement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\InventoryMangement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Final\Code\Lampshade\InventoryMangement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\InventoryMangement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.pdb

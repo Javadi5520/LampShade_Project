@@ -62,3 +62,7 @@ C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\Discou
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\ref\DiscountManagement.Configuration.dll
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.pdb
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.genruntimeconfig.cache
+C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb

@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using System.Text.Encodings.Web;
-using System.Text.Unicode;
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using AccountManagement.Configuration;
@@ -16,19 +13,26 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Configuration;
+using System.Collections.Generic;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
+//using _0_Framework.Application.Email;
+//using _0_Framework.Application.Sms;
+using _0_Framework.Application.ZarinPal;
+//using InventoryManagement.Presentation.Api;
+//using ShopManagement.Presentation.Api;
 
 namespace ServiceHost
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpContextAccessor();
@@ -44,13 +48,14 @@ namespace ServiceHost
             services.AddSingleton<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IAuthHelper, AuthHelper>();
+            services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.Lax;
-            }); 
-            
+            });
+
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
                 {
@@ -74,7 +79,11 @@ namespace ServiceHost
                     builder => builder.RequireRole(new List<string> { Roles.Administrator }));
             });
 
-
+            services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
+                builder
+                    .WithOrigins("https://localhost:5002")
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()));
 
             services.AddRazorPages()
                 .AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
@@ -85,7 +94,11 @@ namespace ServiceHost
                     options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
                     options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
                 });
+            //.AddApplicationPart(typeof(ProductController).Assembly)
+            //.AddApplicationPart(typeof(InventoryController).Assembly)
+            //.AddNewtonsoftJson();
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -96,7 +109,9 @@ namespace ServiceHost
             }
             else
             {
-                app.UseExceptionHandler("/Error");
+                app.UseDeveloperExceptionPage();
+                //app.UseExceptionHandler("/Error");
+                app.UseHsts();
             }
 
             app.UseAuthentication();
@@ -111,7 +126,7 @@ namespace ServiceHost
 
             app.UseAuthorization();
 
-            //app.UseCors("MyPolicy");
+            app.UseCors("MyPolicy");
 
             app.UseEndpoints(endpoints =>
             {

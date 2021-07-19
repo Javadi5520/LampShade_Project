@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zeVhveOrxp7etoWq4DT3+ppusL+MhRxyRv35qRVVaq29Ph3ErR8nmm3ibQT+bjEtte+GosJ2Usz5jG9nwzCdow==",
+  "dgSpecHash": "f0+Bhyx4Gp/E0/k+p7D9UGYwVhgIarOajDMnuGX0g0ntgtqhacN8eQDDXVPru3zQNBXLhn6N+V5iCMKp0Tny7w==",
   "success": true,
   "projectFilePath": "C:\\Final\\Code\\Lampshade\\BlogManagement.Application\\BlogManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

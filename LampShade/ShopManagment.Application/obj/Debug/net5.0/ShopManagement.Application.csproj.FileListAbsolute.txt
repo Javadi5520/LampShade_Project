@@ -38,3 +38,7 @@ C:\Final\Code\Lampshade\ShopManagment.Application\obj\Debug\net5.0\ShopManagemen
 C:\Final\Code\Lampshade\ShopManagment.Application\obj\Debug\net5.0\ShopManagement.Application.dll
 C:\Final\Code\Lampshade\ShopManagment.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll
 C:\Final\Code\Lampshade\ShopManagment.Application\obj\Debug\net5.0\ShopManagement.Application.pdb
+C:\Final\Code\Lampshade\ShopManagment.Application\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\ShopManagment.Application\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Final\Code\Lampshade\ShopManagment.Application\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\ShopManagment.Application\bin\Debug\net5.0\AccountManagement.Domain.pdb

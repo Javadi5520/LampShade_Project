@@ -76,3 +76,7 @@ C:\Final\Code\Lampshade\01_LampShadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csp
 C:\Final\Code\Lampshade\01_LampShadeQuery\obj\Debug\net5.0\01_LampshadeQuery.dll
 C:\Final\Code\Lampshade\01_LampShadeQuery\obj\Debug\net5.0\ref\01_LampshadeQuery.dll
 C:\Final\Code\Lampshade\01_LampShadeQuery\obj\Debug\net5.0\01_LampshadeQuery.pdb
+C:\Final\Code\Lampshade\01_LampShadeQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\01_LampShadeQuery\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Final\Code\Lampshade\01_LampShadeQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\01_LampShadeQuery\bin\Debug\net5.0\AccountManagement.Domain.pdb

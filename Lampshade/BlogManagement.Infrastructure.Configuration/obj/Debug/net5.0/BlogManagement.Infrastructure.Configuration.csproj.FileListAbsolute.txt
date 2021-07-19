@@ -47,3 +47,7 @@ C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\ne
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.dll
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\BlogManagement.Infrastructure.Configuration.dll
 C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.pdb
+C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb

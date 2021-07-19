@@ -42,3 +42,7 @@ C:\Final\Code\Lampshade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\Sh
 C:\Final\Code\Lampshade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.EFCore.dll
 C:\Final\Code\Lampshade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
 C:\Final\Code\Lampshade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Final\Code\Lampshade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Final\Code\Lampshade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\AccountManagement.Domain.pdb

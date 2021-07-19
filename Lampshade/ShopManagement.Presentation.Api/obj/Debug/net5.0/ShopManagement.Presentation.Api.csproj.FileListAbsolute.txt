@@ -1,0 +1,5 @@
+C:\Final\Code\Lampshade\ShopManagement.Presentation.Api\obj\Debug\net5.0\ShopManagement.Presentation.Api.csproj.AssemblyReference.cache
+C:\Final\Code\Lampshade\ShopManagement.Presentation.Api\obj\Debug\net5.0\ShopManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\ShopManagement.Presentation.Api\obj\Debug\net5.0\ShopManagement.Presentation.Api.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\ShopManagement.Presentation.Api\obj\Debug\net5.0\ShopManagement.Presentation.Api.AssemblyInfo.cs
+C:\Final\Code\Lampshade\ShopManagement.Presentation.Api\obj\Debug\net5.0\ShopManagement.Presentation.Api.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+C:\Final\Code\Lampshade\ShopManagement.Infrastructure.InventoryAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\ShopManagement.Infrastructure.InventoryAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\ShopManagement.Infrastructure.InventoryAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.AssemblyInfo.cs
+C:\Final\Code\Lampshade\ShopManagement.Infrastructure.InventoryAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.csproj.CoreCompileInputs.cache
+C:\Final\Code\Lampshade\ShopManagement.Infrastructure.InventoryAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.csproj.AssemblyReference.cache

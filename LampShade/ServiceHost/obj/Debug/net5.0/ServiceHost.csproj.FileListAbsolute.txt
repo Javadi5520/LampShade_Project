@@ -507,3 +507,11 @@ C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\
 C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\Index.cshtml.g.cs
 C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Account.cshtml.g.cs
 C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\AccessDenied.cshtml.g.cs
+C:\Final\Code\Lampshade\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Final\Code\Lampshade\ServiceHost\bin\Debug\net5.0\Nancy.dll
+C:\Final\Code\Lampshade\ServiceHost\bin\Debug\net5.0\RestSharp.dll
+C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Orders\Index.cshtml.g.cs
+C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Orders\Items.cshtml.g.cs
+C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Cart.cshtml.g.cs
+C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Checkout.cshtml.g.cs
+C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\PaymentResult.cshtml.g.cs

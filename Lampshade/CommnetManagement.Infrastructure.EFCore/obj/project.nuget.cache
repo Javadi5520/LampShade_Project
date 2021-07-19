@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZqMZypiIzyCWwqw1l/UlnnYjsdsuEa1C+QnsSUzB1koaDtJB5iD3h4BxKo5qfX2NZPZttjJDhpyXV/sWX2q8Lw==",
+  "dgSpecHash": "ww+qbkBX4av2jeFHk44IuGSs0tGPYGPm2j0nspIG6XuYQdyKNJsUuMHbeeekZ7pFC4j9mGoWygzONEP2F7ESaw==",
   "success": true,
   "projectFilePath": "C:\\Final\\Code\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
