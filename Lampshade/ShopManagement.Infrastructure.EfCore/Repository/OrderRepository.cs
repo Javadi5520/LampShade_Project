@@ -1,57 +1,90 @@
-﻿using _0_Framework.Application;
-using AccountManagement.Application.Contracts.Role;
-using AccountManagement.Domain.RoleAgg;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
+using _0_Framework.Application;
+using _0_Framework.Infrastructure;
+using AccountMangement.Infrastructure.EFCore;
+using ShopManagement.Application.Contracts;
+using ShopManagement.Application.Contracts.Order;
+using ShopManagement.Domain.OrderAgg;
 
-namespace AccountManagement.Application
+namespace ShopManagement.Infrastructure.EFCore.Repository
 {
-    public class RoleApplication : IRoleApplication
+    public class OrderRepository : RepositoryBase<long, Order>, IOrderRepository
     {
-        private readonly IRoleRepository _roleRepository;
+        private readonly ShopContext _context;
+        private readonly AccountContext _accountContext;
 
-        public RoleApplication(IRoleRepository roleRepository)
+        public OrderRepository(ShopContext context, AccountContext accountContext) : base(context)
         {
-            _roleRepository = roleRepository;
+            _context = context;
+            _accountContext = accountContext;
         }
 
-        public OperationResult Create(CreateRole command)
+        public double GetAmountBy(long id)
         {
-            var operation = new OperationResult();
-            if (_roleRepository.Exists(x => x.Name == command.Name))
-                return operation.Failed(ApplicationMessages.DuplicatedRecord);
-
-            var role = new Role(command.Name, new List<Permission>());
-            _roleRepository.Create(role);
-            _roleRepository.SaveChanges();
-            return operation.Succedded();
+            var order = _context.Orders
+                .Select(x => new {x.PayAmount, x.Id})
+                .FirstOrDefault(x => x.Id == id);
+            if (order != null)
+                return order.PayAmount;
+            return 0;
         }
 
-        public OperationResult Edit(EditRole command)
+        public List<OrderItemViewModel> GetItems(long orderId)
         {
-            var operation = new OperationResult();
-            var role = _roleRepository.Get(command.Id);
-            if (role == null)
-                return operation.Failed(ApplicationMessages.RecordNotFound);
+            var products = _context.Products.Select(x => new {x.Id, x.Name}).ToList();
+            var order = _context.Orders.FirstOrDefault(x => x.Id == orderId);
+            if (order == null)
+                return new List<OrderItemViewModel>();
 
-            if (_roleRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
-                return operation.Failed(ApplicationMessages.DuplicatedRecord);
+            var items = order.Items.Select(x => new OrderItemViewModel
+            {
+                Id = x.Id,
+                Count = x.Count,
+                DiscountRate = x.DiscountRate,
+                OrderId = x.OrderId,
+                ProductId = x.ProductId,
+                UnitPrice = x.UnitPrice
+            }).ToList();
 
-            var permissions = new List<Permission>();
-            command.Permissions.ForEach(code => permissions.Add(new Permission(code)));
+            foreach (var item in items)
+            {
+                item.Product = products.FirstOrDefault(x => x.Id == item.ProductId)?.Name;
+            }
 
-            role.Edit(command.Name, permissions);
-            _roleRepository.SaveChanges();
-            return operation.Succedded();
+            return items;
         }
 
-        public EditRole GetDetails(long id)
+        public List<OrderViewModel> Search(OrderSearchModel searchModel)
         {
-            return _roleRepository.GetDetails(id);
-        }
+            var accounts = _accountContext.Accounts.Select(x => new {x.Id, x.Fullname}).ToList();
+            var query = _context.Orders.Select(x => new OrderViewModel
+            {
+                Id = x.Id,
+                AccountId = x.AccountId,
+                DiscountAmount = x.DiscountAmount,
+                IsCanceled = x.IsCanceled,
+                IsPaid = x.IsPaid,
+                IssueTrackingNo = x.IssueTrackingNo,
+                PayAmount = x.PayAmount,
+                PaymentMethodId = x.PaymentMethod,
+                RefId = x.RefId,
+                TotalAmount = x.TotalAmount,
+                CreationDate = x.CreationDate.ToFarsi()
+            });
 
-        public List<RoleViewModel> List()
-        {
-            return _roleRepository.List();
+            query = query.Where(x => x.IsCanceled == searchModel.IsCanceled);
+
+            if (searchModel.AccountId > 0) query = query.Where(x => x.AccountId == searchModel.AccountId);
+
+            var orders = query.OrderByDescending(x => x.Id).ToList();
+            foreach (var order in orders)
+            {
+                order.AccountFullName = accounts.FirstOrDefault(x => x.Id == order.AccountId)?.Fullname;
+                order.PaymentMethod = PaymentMethod.GetBy(order.PaymentMethodId).Name;
+            }
+
+            return orders;
         }
     }
 }

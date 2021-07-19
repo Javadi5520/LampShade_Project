@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using _01_LampshadeQuery.Contracts.Product;
+﻿using _01_LampshadeQuery.Contracts.Product;
+using System.Collections.Generic;
 
 namespace _01_LampshadeQuery.Contracts.ProductCategory
 {

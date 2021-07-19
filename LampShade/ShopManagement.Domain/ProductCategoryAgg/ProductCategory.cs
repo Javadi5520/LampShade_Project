@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using _0_Framework.Domain;
-using Microsoft.AspNetCore.Http;
+﻿using _0_Framework.Domain;
 using ShopManagement.Domain.ProductAgg;
+using System.Collections.Generic;
 
 namespace ShopManagement.Domain.ProductCategoryAgg
 {
@@ -21,8 +20,10 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         {
             Products = new List<Product>();
         }
-        public ProductCategory(string name, string description, string picture, string pictureAlt, string pictureTitle,
-            string keywords, string metaDescription, string slug)
+
+        public ProductCategory(string name, string description, string picture,
+            string pictureAlt, string pictureTitle, string keywords, string metaDescription,
+            string slug)
         {
             Name = name;
             Description = description;
@@ -34,13 +35,16 @@ namespace ShopManagement.Domain.ProductCategoryAgg
             Slug = slug;
         }
 
-        public void Edit(string name, string description, string picture, string pictureAlt, string pictureTitle,
-            string keywords, string metaDescription, string slug)
+        public void Edit(string name, string description, string picture,
+            string pictureAlt, string pictureTitle, string keywords, string metaDescription,
+            string slug)
         {
             Name = name;
             Description = description;
-            if (!string.IsNullOrWhiteSpace(picture))
+
+            if(!string.IsNullOrWhiteSpace(picture))
                 Picture = picture;
+
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Keywords = keywords;

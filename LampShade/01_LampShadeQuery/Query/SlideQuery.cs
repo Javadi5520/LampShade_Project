@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using _01_LampshadeQuery.Contracts.Slide;
+﻿using _01_LampshadeQuery.Contracts.Slide;
 using ShopManagement.Infrastructure.EFCore;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace _01_LampshadeQuery.Query
 {

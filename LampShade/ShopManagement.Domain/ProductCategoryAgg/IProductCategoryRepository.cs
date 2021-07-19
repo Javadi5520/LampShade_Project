@@ -1,7 +1,6 @@
-﻿using ShopManagement.Application.Contracts.ProductCategory;
+﻿using _0_Framework.Domain;
+using ShopManagement.Application.Contracts.ProductCategory;
 using System.Collections.Generic;
-using _0_Framework.Domain;
-
 
 namespace ShopManagement.Domain.ProductCategoryAgg
 {

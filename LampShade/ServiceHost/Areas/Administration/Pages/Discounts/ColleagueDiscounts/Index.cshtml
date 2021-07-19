@@ -55,7 +55,6 @@
                                     <th>محصول</th>
                                     <th>درصد تخفیف</th>
                                     <th>تاریخ تولید</th>
-                                    <th>وضعیت</th>
                                     <th>عملیات</th>
                                 </tr>
                             </thead>
@@ -67,17 +66,6 @@
                                         <td>@item.Product</td>
                                         <td>@item.DiscountRate%</td>
                                         <td>@item.CreationDate</td>
-                                        <td class="text-center">
-                                            @if (!item.IsRemoved)
-                                            {
-                                                <i class="fa fa-check fa-3x text-success"></i>
-                                            }
-                                            else
-                                            {
-                                                <i class="fa fa-remove fa-3x text-danger"></i>
-                                            }
-
-                                        </td>
                                         <td>
                                             <a class="btn btn-warning btn-custom waves-effect waves-light m-b-5"
                                                href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
@@ -87,7 +75,6 @@
                                             {
                                                 <a asp-page="./Index" asp-page-handler="Restore" asp-route-id="@item.Id"
                                                    class="btn btn-success btn-custom waves-effect waves-light m-b-5">فعال سازی</a>
-
                                             }
                                             else
                                             {
@@ -95,7 +82,6 @@
                                                    class="btn btn-danger btn-custom waves-effect waves-light m-b-5">غیرفعال</a>
                                             }
                                         </td>
-
                                     </tr>
                                 }
                             </tbody>

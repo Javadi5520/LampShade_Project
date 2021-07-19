@@ -1,16 +1,17 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
     public class ProductRepository : RepositoryBase<long, Product>, IProductRepository
     {
         private readonly ShopContext _context;
+
         public ProductRepository(ShopContext context) : base(context)
         {
             _context = context;
@@ -30,7 +31,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 MetaDescription = x.MetaDescription,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
-                ShortDescription = x.ShortDescription
+                ShortDescription = x.ShortDescription,
             }).FirstOrDefault(x => x.Id == id);
         }
 

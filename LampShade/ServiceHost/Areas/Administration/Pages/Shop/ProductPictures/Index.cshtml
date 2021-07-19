@@ -28,10 +28,9 @@
                     <div class="form-group">
                         <label class="sr-only" asp-for="SearchModel.ProductId"></label>
                         <select class="form-control" asp-for="SearchModel.ProductId" asp-items="Model.Products">
-                            <option value="0">محصول</option>
+                            <option value="0">محصول ...</option>
                         </select>
                     </div>
-
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
                     <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
                 </form>
@@ -45,7 +44,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">لیست عکس محصولات</h3>
-            </div>
+            </div> 
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -112,7 +111,7 @@
     <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
 
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#datatable').dataTable();
         });
     </script>

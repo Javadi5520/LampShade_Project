@@ -2,24 +2,24 @@
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
+using System;
 using System.Collections.Generic;
 
 namespace ShopManagement.Application
 {
     public class ProductApplication : IProductApplication
     {
-        private readonly IProductRepository _productRepository;
         private readonly IFileUploader _fileUploader;
+        private readonly IProductRepository _productRepository;
         private readonly IProductCategoryRepository _productCategoryRepository;
 
         public ProductApplication(IProductRepository productRepository, IFileUploader fileUploader, IProductCategoryRepository productCategoryRepository)
         {
-            _productRepository = productRepository;
             _fileUploader = fileUploader;
+            _productRepository = productRepository;
             _productCategoryRepository = productCategoryRepository;
         }
 
-        
         public OperationResult Create(CreateProduct command)
         {
             var operation = new OperationResult();
@@ -30,12 +30,10 @@ namespace ShopManagement.Application
             var categorySlug = _productCategoryRepository.GetSlugById(command.CategoryId);
             var path = $"{categorySlug}//{slug}";
             var picturePath = _fileUploader.Upload(command.Picture, path);
-            
             var product = new Product(command.Name, command.Code,
                 command.ShortDescription, command.Description, picturePath,
                 command.PictureAlt, command.PictureTitle, command.CategoryId, slug,
                 command.Keywords, command.MetaDescription);
-
             _productRepository.Create(product);
             _productRepository.SaveChanges();
             return operation.Succedded();
@@ -53,9 +51,10 @@ namespace ShopManagement.Application
 
             var slug = command.Slug.Slugify();
             var path = $"{product.Category.Slug}/{slug}";
-            var picturePath = _fileUploader.Upload(command.Picture, path);
 
-            product.Edit(command.Name, command.Code, command.ShortDescription, command.Description, picturePath,
+            var picturePath = _fileUploader.Upload(command.Picture, path);
+            product.Edit(command.Name, command.Code,
+                command.ShortDescription, command.Description, picturePath,
                 command.PictureAlt, command.PictureTitle, command.CategoryId, slug,
                 command.Keywords, command.MetaDescription);
 

@@ -136,6 +136,10 @@
               "target": "Package",
               "version": "[5.0.7, )"
             },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[106.12.0, )"
@@ -1724,6 +1728,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\01_LampShadeQuery\\01_LampshadeQuery.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\01_LampShadeQuery\\01_LampshadeQuery.csproj"
+              },
               "C:\\Final\\Code\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
                 "projectPath": "C:\\Final\\Code\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
               },
@@ -2007,8 +2014,14 @@
               "C:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
                 "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               },
+              "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.AccountAcl\\ShopManagement.Infrastructure.AccountAcl.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.AccountAcl\\ShopManagement.Infrastructure.AccountAcl.csproj"
+              },
               "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              },
+              "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.InventoryAcl\\ShopManagement.Infrastructure.InventoryAcl.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.InventoryAcl\\ShopManagement.Infrastructure.InventoryAcl.csproj"
               },
               "C:\\Final\\Code\\Lampshade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
                 "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagment.Application.Contract\\ShopManagement.Application.Contracts.csproj"
@@ -2124,6 +2137,67 @@
         }
       }
     },
+    "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.AccountAcl\\ShopManagement.Infrastructure.AccountAcl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.AccountAcl\\ShopManagement.Infrastructure.AccountAcl.csproj",
+        "projectName": "ShopManagement.Infrastructure.AccountAcl",
+        "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.AccountAcl\\ShopManagement.Infrastructure.AccountAcl.csproj",
+        "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
+        "outputPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.AccountAcl\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              },
+              "C:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -2153,6 +2227,9 @@
               },
               "C:\\Final\\Code\\Lampshade\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
                 "projectPath": "C:\\Final\\Code\\Lampshade\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              },
+              "C:\\Final\\Code\\Lampshade\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj"
               },
               "C:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
                 "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
@@ -2185,6 +2262,67 @@
               "version": "[5.0.8, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.InventoryAcl\\ShopManagement.Infrastructure.InventoryAcl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.InventoryAcl\\ShopManagement.Infrastructure.InventoryAcl.csproj",
+        "projectName": "ShopManagement.Infrastructure.InventoryAcl",
+        "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.InventoryAcl\\ShopManagement.Infrastructure.InventoryAcl.csproj",
+        "packagesPath": "C:\\Users\\Aida\\.nuget\\packages\\",
+        "outputPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Infrastructure.InventoryAcl\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Final\\Code\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+              },
+              "C:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",

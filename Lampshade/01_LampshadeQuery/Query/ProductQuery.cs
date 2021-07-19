@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using _01_LampshadeQuery.Contracts.Comment;
 using _01_LampshadeQuery.Contracts.Product;
 using CommnetManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
@@ -9,7 +10,6 @@ using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using _01_LampshadeQuery.Contracts.Comment;
 using ShopManagement.Application.Contracts.Order;
 
 namespace _01_LampshadeQuery.Query
@@ -21,9 +21,8 @@ namespace _01_LampshadeQuery.Query
         private readonly DiscountContext _discountContext;
         private readonly CommentContext _commentContext;
 
-
         public ProductQuery(ShopContext context, InventoryContext inventoryContext,
-              DiscountContext discountContext, CommentContext commentContext)
+            DiscountContext discountContext, CommentContext commentContext)
         {
             _context = context;
             _discountContext = discountContext;

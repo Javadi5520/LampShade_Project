@@ -1,9 +1,8 @@
-﻿using System.Linq;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Filters;
+using System.Linq;
+using System.Reflection;
 
 namespace ServiceHost
 {
@@ -23,7 +22,7 @@ namespace ServiceHost
         public void OnPageHandlerExecuting(PageHandlerExecutingContext context)
         {
             var handlerPermission =
-                (NeedsPermissionAttribute) context.HandlerMethod.MethodInfo.GetCustomAttribute(
+                (NeedsPermissionAttribute)context.HandlerMethod.MethodInfo.GetCustomAttribute(
                     typeof(NeedsPermissionAttribute));
 
             if (handlerPermission == null)

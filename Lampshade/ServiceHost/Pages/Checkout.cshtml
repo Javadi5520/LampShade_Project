@@ -36,50 +36,50 @@
                             <div class="cart-table table-responsive">
                                 <table class="table">
                                     <thead>
-                                    <tr>
-                                        <th class="pro-thumbnail">عکس</th>
-                                        <th class="pro-thumbnail">محصول</th>
-                                        <th class="pro-title">قیمت واحد</th>
-                                        <th class="pro-price">تعداد</th>
-                                        <th class="pro-quantity">مبلغ کل بدون تخفیف</th>
-                                        <th class="pro-subtotal">درصد تخفیف</th>
-                                        <th class="pro-subtotal">مبلغ کل تخفیف</th>
-                                        <th class="pro-remove">مبلغ پس از تخفیف</th>
-                                    </tr>
+                                        <tr>
+                                            <th class="pro-thumbnail">عکس</th>
+                                            <th class="pro-thumbnail">محصول</th>
+                                            <th class="pro-title">قیمت واحد</th>
+                                            <th class="pro-price">تعداد</th>
+                                            <th class="pro-quantity">مبلغ کل بدون تخفیف</th>
+                                            <th class="pro-subtotal">درصد تخفیف</th>
+                                            <th class="pro-subtotal">مبلغ کل تخفیف</th>
+                                            <th class="pro-remove">مبلغ پس از تخفیف</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach (var item in Model.Cart.Items)
-                                    {
-                                        <tr>
-                                            <td class="pro-thumbnail">
-                                                <a>
-                                                    <img src="~/ProductPictures/@item.Picture" class="img-fluid"
-                                                         alt="@item.Name">
-                                                </a>
-                                            </td>
-                                            <td class="pro-title">
-                                                <a>@item.Name</a>
-                                            </td>
-                                            <td class="pro-price">
-                                                <span>@item.UnitPrice.ToMoney() تومان</span>
-                                            </td>
-                                            <td class="pro-price">
-                                                <span>@item.Count عدد</span>
-                                            </td>
-                                            <td class="pro-subtotal">
-                                                <span>@item.TotalItemPrice.ToMoney() تومان</span>
-                                            </td>
-                                            <td class="pro-subtotal">
-                                                <span>@item.DiscountRate %</span>
-                                            </td>
-                                            <td class="pro-subtotal">
-                                                <span>@item.DiscountAmount.ToMoney() تومان</span>
-                                            </td>
-                                            <td class="pro-subtotal">
-                                                <span>@item.ItemPayAmount.ToMoney() تومان</span>
-                                            </td>
-                                        </tr>
-                                    }
+                                        @foreach (var item in Model.Cart.Items)
+                                        {
+                                            <tr>
+                                                <td class="pro-thumbnail">
+                                                    <a>
+                                                        <img src="~/ProductPictures/@item.Picture" class="img-fluid"
+                                                             alt="@item.Name">
+                                                    </a>
+                                                </td>
+                                                <td class="pro-title">
+                                                    <a>@item.Name</a>
+                                                </td>
+                                                <td class="pro-price">
+                                                    <span>@item.UnitPrice.ToMoney() تومان</span>
+                                                </td>
+                                                <td class="pro-price">
+                                                    <span>@item.Count عدد</span>
+                                                </td>
+                                                <td class="pro-subtotal">
+                                                    <span>@item.TotalItemPrice.ToMoney() تومان</span>
+                                                </td>
+                                                <td class="pro-subtotal">
+                                                    <span>@item.DiscountRate %</span>
+                                                </td>
+                                                <td class="pro-subtotal">
+                                                    <span>@item.DiscountAmount.ToMoney() تومان</span>
+                                                </td>
+                                                <td class="pro-subtotal">
+                                                    <span>@item.ItemPayAmount.ToMoney() تومان</span>
+                                                </td>
+                                            </tr>
+                                        }
                                     </tbody>
                                 </table>
                             </div>

@@ -1,14 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using _01_LampshadeQuery.Contracts.Product;
 using _01_LampshadeQuery.Contracts.ProductCategory;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.ProductAgg;
-using ShopManagement.Infrastructure.EFCore; 
+using ShopManagement.Infrastructure.EFCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
 namespace _01_LampshadeQuery.Query
 {
     public class ProductCategoryQuery : IProductCategoryQuery

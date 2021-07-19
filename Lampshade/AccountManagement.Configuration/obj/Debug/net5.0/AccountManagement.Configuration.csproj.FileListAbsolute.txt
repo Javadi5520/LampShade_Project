@@ -4,7 +4,13 @@ C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\ref\Acc
 C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Configuration.pdb
 C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\0_Framework.dll
 C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.dll
+C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.dll
 C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\0_Framework.pdb
+C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.pdb
+C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
+C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb
 C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
 C:\Final\Code\Lampshade\AccountManagement.Configuration\obj\Debug\net5.0\AccountManagement.Configuration.csproj.AssemblyReference.cache
 C:\Final\Code\Lampshade\AccountManagement.Configuration\obj\Debug\net5.0\AccountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,9 +21,3 @@ C:\Final\Code\Lampshade\AccountManagement.Configuration\obj\Debug\net5.0\Account
 C:\Final\Code\Lampshade\AccountManagement.Configuration\obj\Debug\net5.0\AccountManagement.Configuration.dll
 C:\Final\Code\Lampshade\AccountManagement.Configuration\obj\Debug\net5.0\ref\AccountManagement.Configuration.dll
 C:\Final\Code\Lampshade\AccountManagement.Configuration\obj\Debug\net5.0\AccountManagement.Configuration.pdb
-C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.dll
-C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
-C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.dll
-C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.pdb
-C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
-C:\Final\Code\Lampshade\AccountManagement.Configuration\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb

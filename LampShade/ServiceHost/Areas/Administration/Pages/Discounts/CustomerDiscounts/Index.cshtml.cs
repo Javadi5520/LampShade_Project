@@ -19,9 +19,9 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
         private readonly IProductApplication _productApplication;
         private readonly ICustomerDiscountApplication _customerDiscountApplication;
 
-        public IndexModel(IProductApplication productApplication, ICustomerDiscountApplication customerDiscountApplication)
+        public IndexModel(IProductApplication ProductApplication, ICustomerDiscountApplication customerDiscountApplication)
         {
-            _productApplication = productApplication;
+            _productApplication = ProductApplication;
             _customerDiscountApplication = customerDiscountApplication;
         }
 
