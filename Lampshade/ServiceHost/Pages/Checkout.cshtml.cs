@@ -71,9 +71,11 @@ namespace ServiceHost.Pages
             }
 
             var paymentResult = new PaymentResult();
+            Response.Cookies.Delete("cart-items");
             return RedirectToPage("/PaymentResult",
                 paymentResult.Succeeded(
                     "سفارش شما با موفقیت ثبت شد. پس از تماس کارشناسان ما و پرداخت وجه، سفارش ارسال خواهد شد.", null));
+
         }
 
         public IActionResult OnGetCallBack([FromQuery] string authority, [FromQuery] string status,

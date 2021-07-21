@@ -3350,7 +3350,7 @@
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.8",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore": "5.0.7",
+          "Microsoft.EntityFrameworkCore": "5.0.8",
           "MimeKit": "2.13.0",
           "RestSharp": "106.12.0"
         },

@@ -70,7 +70,7 @@ namespace ShopManagement.Application
         {
             var order = _orderRepository.Get(orderId);
             order.PaymentSucceeded(refId);
-            var symbol = "";
+            var symbol = "S";
             //var symbol = _configuration.GetValue<string>("Symbol");
             var issueTrackingNo = CodeGenerator.Generate(symbol);
             order.SetIssueTrackingNo(issueTrackingNo);

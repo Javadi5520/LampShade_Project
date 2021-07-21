@@ -79,11 +79,11 @@ namespace ServiceHost
                     builder => builder.RequireRole(new List<string> { Roles.Administrator }));
             });
 
-            //services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
-            //    builder
-            //        .WithOrigins("https://localhost:5002")
-            //        .AllowAnyHeader()
-            //        .AllowAnyMethod()));
+            services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
+                builder
+                    .WithOrigins("https://localhost:5002")
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()));
 
             services.AddRazorPages()
                 .AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
@@ -126,7 +126,7 @@ namespace ServiceHost
 
             app.UseAuthorization();
 
-            //app.UseCors("MyPolicy");
+            app.UseCors("MyPolicy");
 
             app.UseEndpoints(endpoints =>
             {
