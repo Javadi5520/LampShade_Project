@@ -1,0 +1,17 @@
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\bin\Release\net5.0\InventoryManagement.Application.Contract.deps.json
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\bin\Release\net5.0\InventoryManagement.Application.Contract.dll
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\bin\Release\net5.0\ref\InventoryManagement.Application.Contract.dll
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\bin\Release\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\bin\Release\net5.0\0_Framework.dll
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\bin\Release\net5.0\ShopManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\bin\Release\net5.0\0_Framework.pdb
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\bin\Release\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\obj\Release\net5.0\InventoryManagement.Application.Contract.csproj.AssemblyReference.cache
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\obj\Release\net5.0\InventoryManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\obj\Release\net5.0\InventoryManagement.Application.Contract.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\obj\Release\net5.0\InventoryManagement.Application.Contract.AssemblyInfo.cs
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\obj\Release\net5.0\InventoryManagement.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\obj\Release\net5.0\InventoryManagement.Application.Contract.csproj.CopyComplete
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\obj\Release\net5.0\InventoryManagement.Application.Contract.dll
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\obj\Release\net5.0\ref\InventoryManagement.Application.Contract.dll
+C:\Final\Code\Lampshade\InventoryManagement.Application.Contract\obj\Release\net5.0\InventoryManagement.Application.Contract.pdb

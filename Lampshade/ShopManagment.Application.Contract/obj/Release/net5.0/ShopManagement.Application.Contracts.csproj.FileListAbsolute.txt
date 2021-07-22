@@ -1,0 +1,15 @@
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\bin\Release\net5.0\ShopManagement.Application.Contracts.deps.json
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\bin\Release\net5.0\ShopManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\bin\Release\net5.0\ref\ShopManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\bin\Release\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\bin\Release\net5.0\0_Framework.dll
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\bin\Release\net5.0\0_Framework.pdb
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\obj\Release\net5.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\obj\Release\net5.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\obj\Release\net5.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\obj\Release\net5.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\obj\Release\net5.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\obj\Release\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\obj\Release\net5.0\ShopManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\obj\Release\net5.0\ref\ShopManagement.Application.Contracts.dll
+C:\Final\Code\Lampshade\ShopManagment.Application.Contract\obj\Release\net5.0\ShopManagement.Application.Contracts.pdb
