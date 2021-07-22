@@ -9,6 +9,7 @@
       "ShopManagement.Application/1.0.0": {
         "dependencies": {
           "0_Framework": "1.0.0",
+          "Microsoft.Extensions.Configuration": "5.0.0",
           "ShopManagement.Application.Contracts": "1.0.0",
           "ShopManagement.Domain": "1.0.0",
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
@@ -28,15 +29,15 @@
           }
         }
       },
-      "Google.Apis.Admin.Directory.directory_v1/1.52.0.2385": {
+      "Google.Apis.Admin.Directory.directory_v1/1.52.0.2392": {
         "dependencies": {
           "Google.Apis": "1.52.0",
           "Google.Apis.Auth": "1.52.0"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.Admin.Directory.directory_v1.dll": {
-            "assemblyVersion": "1.52.0.2385",
-            "fileVersion": "1.52.0.2385"
+            "assemblyVersion": "1.52.0.2392",
+            "fileVersion": "1.52.0.2392"
           }
         }
       },
@@ -64,6 +65,17 @@
           "lib/netstandard2.0/Google.Apis.Core.dll": {
             "assemblyVersion": "1.52.0.0",
             "fileVersion": "1.52.0.0"
+          }
+        }
+      },
+      "MailKit/2.13.0": {
+        "dependencies": {
+          "MimeKit": "2.13.0"
+        },
+        "runtime": {
+          "lib/net50/MailKit.dll": {
+            "assemblyVersion": "2.13.0.0",
+            "fileVersion": "2.13.0.0"
           }
         }
       },
@@ -425,6 +437,18 @@
           }
         }
       },
+      "Microsoft.Extensions.Configuration/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "5.0.1"
@@ -702,6 +726,14 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
           "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
+      "SmsIrRestful/1.1.3": {
+        "runtime": {
+          "lib/SmsIrRestful.dll": {
+            "assemblyVersion": "1.1.3.0",
+            "fileVersion": "1.1.3.0"
+          }
         }
       },
       "System.Buffers/4.5.1": {},
@@ -1337,13 +1369,15 @@
       },
       "0_Framework/1.0.0": {
         "dependencies": {
-          "Google.Apis.Admin.Directory.directory_v1": "1.52.0.2385",
+          "Google.Apis.Admin.Directory.directory_v1": "1.52.0.2392",
+          "MailKit": "2.13.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.8",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "MimeKit": "2.13.0",
-          "RestSharp": "106.12.0"
+          "RestSharp": "106.12.0",
+          "SmsIrRestful": "1.1.3"
         },
         "runtime": {
           "0_Framework.dll": {}
@@ -1421,12 +1455,12 @@
       "path": "google.apis/1.52.0",
       "hashPath": "google.apis.1.52.0.nupkg.sha512"
     },
-    "Google.Apis.Admin.Directory.directory_v1/1.52.0.2385": {
+    "Google.Apis.Admin.Directory.directory_v1/1.52.0.2392": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nRlHri3GgjUrVOFkVvKdwaMVufOcpobRn4nFZPZzgHpjSRdHno/bhh4mstdv317NLlsRkewsvlfOuCRqgtDxGA==",
-      "path": "google.apis.admin.directory.directory_v1/1.52.0.2385",
-      "hashPath": "google.apis.admin.directory.directory_v1.1.52.0.2385.nupkg.sha512"
+      "sha512": "sha512-vyWSufHkys2jHuZ3sXjuDhFpBMAZFHJfbwea9jAHgJJNG7ruAuI9HLzDcWGPW2bnKNFbxY86ELsmBjRNDyW3Hg==",
+      "path": "google.apis.admin.directory.directory_v1/1.52.0.2392",
+      "hashPath": "google.apis.admin.directory.directory_v1.1.52.0.2392.nupkg.sha512"
     },
     "Google.Apis.Auth/1.52.0": {
       "type": "package",
@@ -1441,6 +1475,13 @@
       "sha512": "sha512-cgQpnZ9IC5SBNsAFTXHKUMB8bOkBWPLtXcLgwSYkV8oL0FfUdHwrDzH5qrf/mFB9fQIPgJyV6tdUwf2hu1UJ+A==",
       "path": "google.apis.core/1.52.0",
       "hashPath": "google.apis.core.1.52.0.nupkg.sha512"
+    },
+    "MailKit/2.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h+2fxPnB/gb+8nniTwetvooM8r9nmbWVF116uXZn8d4+k6V+mf+IOA4Gqb7nwHcZooale0s/v13O7B/6StRHJA==",
+      "path": "mailkit/2.13.0",
+      "hashPath": "mailkit.2.13.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "type": "package",
@@ -1623,6 +1664,13 @@
       "sha512": "sha512-/1qPCleFOkJe0O+xmFqCNLFYQZTJz965sVw8CUB/BQgsApBwzAUsL2BUkDvQW+geRUVTXUS9zLa0pBjC2VJ1gA==",
       "path": "microsoft.extensions.caching.memory/5.0.0",
       "hashPath": "microsoft.extensions.caching.memory.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LN322qEKHjuVEhhXueTUe7RNePooZmS8aGid5aK2woX3NPjSnONFyKUc6+JknOS6ce6h2tCLfKPTBXE3mN/6Ag==",
+      "path": "microsoft.extensions.configuration/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.5.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
       "type": "package",
@@ -1812,6 +1860,13 @@
       "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
+    },
+    "SmsIrRestful/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ouYKkhQv0zLbdDIPw5Eagpod9828Fd2zQhqt2N2MMPHdCV7oHYuAvClSBS4Pru1MclEvH5mmLfE7cgeFZ9ea+w==",
+      "path": "smsirrestful/1.1.3",
+      "hashPath": "smsirrestful.1.1.3.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

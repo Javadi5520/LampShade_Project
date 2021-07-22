@@ -1,5 +1,5 @@
 ﻿using MimeKit;
-//using MailKit.Net.Smtp;
+using MailKit.Net.Smtp;
 
 namespace _0_Framework.Application.Email
 {
@@ -9,7 +9,7 @@ namespace _0_Framework.Application.Email
         {
             var message = new MimeMessage();
 
-            var from = new MailboxAddress("Atriya", "test@atriya.com");
+            var from = new MailboxAddress("Javadi", "javadi5520@gmail.com");
             message.From.Add(from);
 
             var to = new MailboxAddress("User", destination);
@@ -23,12 +23,12 @@ namespace _0_Framework.Application.Email
 
             message.Body = bodyBuilder.ToMessageBody();
 
-            //var client = new SmtpClient();
-            //client.Connect("185.88.152.251", 25, false);
-            //client.Authenticate("test@atriya.com", "Atriya.123456");
-            //client.Send(message);
-            //client.Disconnect(true);
-            //client.Dispose();
+            var client = new SmtpClient();
+            client.Connect("185.88.152.251", 25, false);
+            client.Authenticate("javadi5520", "Aa@55205520");
+            client.Send(message);
+            client.Disconnect(true);
+            client.Dispose();
         }
     }
 }

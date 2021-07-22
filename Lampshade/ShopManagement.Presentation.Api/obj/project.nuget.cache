@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "tsdEbScYe7BjLq9l97mJz9THua2mccRJnqULLa3LM4zTVhiLtwAvHDF+LEE3VR69DlnrkabJOob4QWeZmVohhQ==",
+  "dgSpecHash": "k5ynBtwpso4ldbqla7iO89q3vv9ZXGjvzFurWPu86mBS4KsScNTOkgQCogFDVQNzpQ4Z6r8wn6+ddhsM4PW9Gg==",
   "success": true,
   "projectFilePath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aida\\.nuget\\packages\\google.apis\\1.52.0\\google.apis.1.52.0.nupkg.sha512",
-    "C:\\Users\\Aida\\.nuget\\packages\\google.apis.admin.directory.directory_v1\\1.52.0.2385\\google.apis.admin.directory.directory_v1.1.52.0.2385.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\google.apis.admin.directory.directory_v1\\1.52.0.2392\\google.apis.admin.directory.directory_v1.1.52.0.2392.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\google.apis.auth\\1.52.0\\google.apis.auth.1.52.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\google.apis.core\\1.52.0\\google.apis.core.1.52.0.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\mailkit\\2.13.0\\mailkit.2.13.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -95,6 +96,7 @@
     "C:\\Users\\Aida\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\smsirrestful\\1.1.3\\smsirrestful.1.1.3.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
@@ -180,5 +182,16 @@
     "C:\\Users\\Aida\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SmsIrRestful 1.1.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SmsIrRestful",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

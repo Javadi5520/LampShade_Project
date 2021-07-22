@@ -30,11 +30,6 @@ G:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\Discou
 G:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\ref\DiscountManagement.Configuration.dll
 G:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.pdb
 G:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.genruntimeconfig.cache
-C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.AssemblyReference.cache
-C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
-C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
-C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfo.cs
-C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Configuration.deps.json
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Configuration.runtimeconfig.json
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Configuration.runtimeconfig.dev.json
@@ -63,6 +58,11 @@ C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\Accoun
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.AssemblyReference.cache
+C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfo.cs
+C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CopyComplete
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.dll
 C:\Final\Code\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\ref\DiscountManagement.Configuration.dll

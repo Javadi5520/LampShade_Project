@@ -30,11 +30,6 @@ G:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Deb
 G:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 G:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
 G:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.genruntimeconfig.cache
-C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
-C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
-C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
-C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfo.cs
-C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.deps.json
 C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.runtimeconfig.json
 C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.runtimeconfig.dev.json
@@ -83,6 +78,11 @@ C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Deb
 C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
 C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfo.cs
+C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.CopyComplete
 C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
 C:\Final\Code\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Configuration.dll

@@ -38,11 +38,6 @@ G:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManage
 G:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 G:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 G:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
-C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.AssemblyReference.cache
-C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
-C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfoInputs.cache
-C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfo.cs
-C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.deps.json
 C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.runtimeconfig.json
 C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.runtimeconfig.dev.json
@@ -95,6 +90,11 @@ C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountMa
 C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 C:\Final\Code\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
+C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.AssemblyReference.cache
+C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfoInputs.cache
+C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfo.cs
+C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CoreCompileInputs.cache
 C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CopyComplete
 C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 C:\Final\Code\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
