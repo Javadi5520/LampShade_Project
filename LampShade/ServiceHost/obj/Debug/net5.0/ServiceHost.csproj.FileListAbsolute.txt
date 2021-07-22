@@ -521,3 +521,7 @@ C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 C:\Final\Code\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+C:\Final\Code\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+C:\Final\Code\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Presentation.Api.dll
+C:\Final\Code\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+C:\Final\Code\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Presentation.Api.pdb

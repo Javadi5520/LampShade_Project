@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L/X7IfAFtjICtq4wTfT7RgTNhu5TPq61Hz78Q0ynbxGBi1xE1toG13f8CA7riCuO774d8AtvOusnRoIK8EdnWg==",
+  "dgSpecHash": "hwoRh7Hy6JqsWMQTeSPUkFijle+j1nfRAvmPVZ7pZe63tu/TkyaNz/qnbGFBw4+oqBjL9aBatMj7GzI3DTu00w==",
   "success": true,
   "projectFilePath": "C:\\Final\\Code\\Lampshade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.8\\microsoft.entityframeworkcore.tools.5.0.8.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

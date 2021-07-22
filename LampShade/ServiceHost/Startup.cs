@@ -19,8 +19,8 @@ using System.Text.Unicode;
 //using _0_Framework.Application.Email;
 //using _0_Framework.Application.Sms;
 using _0_Framework.Application.ZarinPal;
-//using InventoryManagement.Presentation.Api;
-//using ShopManagement.Presentation.Api;
+using InventoryManagement.Presentation.Api;
+using ShopManagement.Presentation.Api;
 
 namespace ServiceHost
 {
@@ -81,7 +81,7 @@ namespace ServiceHost
 
             services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
                 builder
-                    .WithOrigins("https://localhost:5002")
+                    .WithOrigins("http://localhost:5000")
                     .AllowAnyHeader()
                     .AllowAnyMethod()));
 
@@ -93,10 +93,10 @@ namespace ServiceHost
                     options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
                     options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
                     options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
-                });
-            //.AddApplicationPart(typeof(ProductController).Assembly)
-            //.AddApplicationPart(typeof(InventoryController).Assembly)
-            //.AddNewtonsoftJson();
+                })
+            .AddApplicationPart(typeof(ProductController).Assembly)
+            .AddApplicationPart(typeof(InventoryController).Assembly)
+            .AddNewtonsoftJson();
         }
 
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wO24Lrmk3OYXYqxYXF3K24tfpuSIBg6K/RMY4oALpc48ltsgE/dG1VMdyhefX+d5xXlHnsgIshP2HmBarsmISA==",
+  "dgSpecHash": "kxsny5Z5ZiaeZPYVIeXGNW3HQnJdCgBl6r1InUJiBDKv8ZhqzRq8uOQaKt9CldiAadrmfAbIA3rvRVofeJj0aQ==",
   "success": true,
   "projectFilePath": "C:\\Final\\Code\\Lampshade\\ShopManagment.Application\\ShopManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.8\\microsoft.entityframeworkcore.sqlserver.5.0.8.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\Aida\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
